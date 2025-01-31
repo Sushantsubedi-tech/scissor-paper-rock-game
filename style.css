@@ -84,3 +84,114 @@ body {
     color: rgb(165, 147, 147);
    
 }
+/* For devices with max-width 1200px (Laptops, smaller desktops) */
+@media (max-width: 1200px) {
+    .main {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .comp, .human {
+        height: 25rem;
+        width: 18rem;
+    }
+
+    .imagehum, .imagecop {
+        height: 15rem;
+    }
+}
+
+/* For tablets and small laptops (max-width 992px) */
+@media (max-width: 992px) {
+    .comp, .human {
+        height: 22rem;
+        width: 16rem;
+    }
+
+    .imagehum, .imagecop {
+        height: 13rem;
+    }
+
+    .playtog {
+        height: 3.5rem;
+        width: 8rem;
+        font-size: medium;
+    }
+}
+
+/* For tablets and large phones (max-width 768px) */
+@media (max-width: 768px) {
+    .comp, .human {
+        height: 20rem;
+        width: 14rem;
+    }
+
+    .imagehum, .imagecop {
+        height: 12rem;
+    }
+
+    .playtog {
+        height: 3rem;
+        width: 7rem;
+        font-size: small;
+    }
+
+    .input {
+        width: 11rem;
+        font-size: small;
+    }
+}
+
+/* For small phones (max-width 576px) */
+@media (max-width: 576px) {
+    .comp, .human {
+        height: 18rem;
+        width: 12rem;
+    }
+
+    .imagehum, .imagecop {
+        height: 10rem;
+    }
+
+    .playtog {
+        height: 2.8rem;
+        width: 6rem;
+        font-size: small;
+    }
+
+    .input {
+        width: 10rem;
+        font-size: small;
+    }
+
+    .headinghum, .headingcomp, .appearshum, .appearscom {
+        font-size: 24px;
+    }
+}
+
+/* For extra small devices (max-width 400px) */
+@media (max-width: 400px) {
+    .comp, .human {
+        height: 16rem;
+        width: 10rem;
+    }
+
+    .imagehum, .imagecop {
+        height: 8rem;
+    }
+
+    .playtog {
+        height: 2.5rem;
+        width: 5.5rem;
+        font-size: x-small;
+    }
+
+    .input {
+        width: 9rem;
+        font-size: x-small;
+    }
+
+    .headinghum, .headingcomp, .appearshum, .appearscom {
+        font-size: 20px;
+    }
+}
